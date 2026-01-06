@@ -62,14 +62,16 @@ export function App() {
     <div className="mx-auto max-w-6xl my-12 space-y-6 px-5">
       <img src={logo} alt="NLW Expert" />
 
-      <form className="w-full">
+      <div className="w-full">
         <input
           type="text"
           placeholder="Busque em suas notas..."
-          className="w-full bg-transparent text-3xl font-semibold tracking-tight outline-none placeholder:text-state-500"
+          value={search}
           onChange={handleSearch}
+          className="w-full bg-transparent text-3xl font-semibold tracking-tight outline-none placeholder:text-slate-500"
         />
-      </form>
+      </div>
+
 
       <div className="h-px bg-slate-700" />
 
@@ -85,3 +87,4 @@ export function App() {
     </div>
   );
 }
+
