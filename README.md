@@ -13,4 +13,4 @@ npm install
 npm run dev
 ```
 
-Acesse updatenotes2.netlify.app/ para visualizar a aplicação.
+Acesse [updatenotes2.netlify.app](https://updatenotes2.netlify.app/) para visualizar a aplicação.
